@@ -475,6 +475,11 @@ mark,
   height: auto;
 }
 
+.img-fluid-small {
+  max-width: 50%;
+  height: 10%;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -2236,7 +2241,6 @@ textarea.form-control {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-align: center;
-  align-items: center;
   padding-left: 0;
   margin-right: 0.75rem;
 }
