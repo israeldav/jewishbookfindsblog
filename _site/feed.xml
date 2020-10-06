@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T00:09:14-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jewish Book Finds</title><subtitle>A blog about (old) jewish books</subtitle><author><name>Jewish Book Finds</name></author><entry><title type="html">Jewish Welfare Board Publications</title><link href="http://localhost:4000/jewish-welfare-board-publications" rel="alternate" type="text/html" title="Jewish Welfare Board Publications" /><published>2020-09-06T00:00:00-04:00</published><updated>2020-09-06T00:00:00-04:00</updated><id>http://localhost:4000/jewish-welfare-board-publications</id><content type="html" xml:base="http://localhost:4000/jewish-welfare-board-publications">&lt;p&gt;Some of the most popular paraphernalia from Jewish soldiers serving in WW I and WW II (and the Korean war?) are books that were printed 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-24T10:33:51-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jewishbookfinds.com</title><subtitle>A blog about (old) jewish books</subtitle><author><name>Jewish Book Finds</name></author><entry><title type="html">Jewish Welfare Board Publications</title><link href="http://localhost:4000/jewish-welfare-board-publications" rel="alternate" type="text/html" title="Jewish Welfare Board Publications" /><published>2020-09-06T00:00:00-04:00</published><updated>2020-09-06T00:00:00-04:00</updated><id>http://localhost:4000/jewish-welfare-board-publications</id><content type="html" xml:base="http://localhost:4000/jewish-welfare-board-publications">&lt;p&gt;Some of the most popular paraphernalia from Jewish soldiers serving in WW I and WW II (and the Korean war?) are books that were printed 
 by the JWB (Jewish Welfare Board) and distributed to Jewish military personnel.  Siddurim, Machzorim, Tanachs, Haggadahs, Megillas and many 
 other books/pamphlets/Jewish guides were printed by the thousands and are fairly easy to pick up today. If you're lucky, you can find one 
 with a name &amp; rank or some note written on the inside cover.&lt;/p&gt;
@@ -6,10 +6,20 @@ with a name &amp; rank or some note written on the inside cover.&lt;/p&gt;
 Here are some of the basics:
 
 
-&lt;img class=&quot;img-fluid mx-auto d-block&quot; src='/img/posts/jewishwelfareboard1.jpg' alt=&quot;jewish welfare board siddur&quot;&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;img class=&quot;img-fluid mx-auto d-block&quot; src='/img/posts/jewishwelfareboard2.jpg' alt=&quot;jewish welfare board siddur&quot;&gt;
-&lt;p&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;img-float&quot;&gt;
+        &lt;img src='/img/posts/jewishwelfareboard1.jpg' alt=&quot;jewish welfare board siddur&quot; style=&quot;width:100%&quot;&gt;&lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;img-float&quot;&gt;
+&lt;img src='/img/posts/jewishwelfareboard2.jpg' alt=&quot;jewish welfare board siddur&quot; style=&quot;width:100%&quot;&gt;&lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
 &lt;img class=&quot;img-fluid mx-auto d-block&quot; src='/img/posts/jewishwelfareboard3.jpg' alt=&quot;jewish welfare board siddur&quot;&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;img class=&quot;img-fluid mx-auto d-block&quot; src='/img/posts/jewishwelfareboard4.jpg' alt=&quot;jewish welfare board siddur&quot;&gt;
