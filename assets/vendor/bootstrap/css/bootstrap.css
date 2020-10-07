@@ -475,6 +475,12 @@ mark,
   height: auto;
 }
 
+.img-float {
+  float: left; 
+  width: 50%; 
+  padding: 5px;
+}
+
 .img-fluid-small {
   max-width: 50%;
   height: 10%;
