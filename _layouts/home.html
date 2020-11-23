@@ -4,7 +4,8 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+<header class="masthead"
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
   <header class="masthead">
     {% endif %}
@@ -30,7 +31,7 @@ layout: default
         {{ content }}
 
         <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
+        {% for post in site.posts limit : 8 %}
 
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -48,7 +49,7 @@ layout: default
             {{ site.author }}
             {% endif %}
             <!--on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}  -->          
+            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}  -->
           </p>
         </article>
 
