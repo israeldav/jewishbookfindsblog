@@ -31,238 +31,101 @@
 
 
 </head>
-
-<!--content="A place to share my books and interest in modern Jewish history.">-->
-
-<body>
-
-  <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand" href="/">Jewishbookfinds.com</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
-      <i class="fa fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/posts">Posts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
-        </li>
-      </ul>
+<div class="contact-form-container">
+  <form action="https://formspree.io/f/xrbzbwbo" method="POST" class="contact-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" class="form-control" required>
     </div>
-  </div>
-</nav>
+    
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" class="form-control" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="5" class="form-control" required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</div>
 
-
-  <!-- Page Header -->
-
-<header class="masthead" style="background-image: url('/img/bg-contact.jpg')">
+<style>
+  .contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
   
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>Contact Me</h1>
-            
-            <span class="subheading">Have any questions? Feel free to reach out.</span>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        <form name="sentMessage" id="contactForm" novalidate>
-  <div class="control-group">
-    <div class="form-group floating-label-form-group controls">
-      <label>Name</label>
-      <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group floating-label-form-group controls">
-      <label>Email Address</label>
-      <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group col-xs-12 floating-label-form-group controls">
-      <label>Phone Number</label>
-      <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group floating-label-form-group controls">
-      <label>Message</label>
-      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <br>
-  <div id="success"></div>
-  <div class="form-group">
-    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
-  </div>
-</form>
-
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Footer -->
-
-<hr>
-
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
-          
-          <li class="list-inline-item">
-            <a href="mailto:jewishbookfinds1@gmail.com">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-          
-          <li class="list-inline-item">
-            <a href="https://twitter.com/jewishbookfinds">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-          
-          
-          
-          
-          <li class="list-inline-item">
-            <a href="https://instagram.com/jewishbookfinds">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="copyright text-muted">Copyright &copy; Jewish Book Finds 2021</p>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-  <script src="/assets/vendor/jquery/jquery.min.js"></script>
-<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
-
-<script src="/assets/scripts.js"></script>
-
-
-  <!-- Form Validation -->
-  <script src="/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js"></script>
-  <!-- Send Form -->
-  <script>
-    $(function () {
-
-      $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
-        preventSubmit: true,
-        submitError: function ($form, event, errors) {
-          // additional error messages or events
-        },
-        submitSuccess: function ($form, event) {
-          event.preventDefault(); // prevent default submit behaviour
-          // get values from FORM
-          var name = $("input#name").val();
-          var email = $("input#email").val();
-          var phone = $("input#phone").val();
-          var message = $("textarea#message").val();
-          var firstName = name; // For Success/Failure Message
-          // Check for white space in name for Success/Fail message
-          if (firstName.indexOf(' ') >= 0) {
-            firstName = name.split(' ').slice(0, -1).join(' ');
-          }
-          $this = $("#sendMessageButton");
-          $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
-          $.ajax({
-            action: "https://formspree.io/f/xrbzbwbom",
-            type: "POST",
-            data: {
-              name: name,
-              phone: phone,
-              email: email,
-              message: message
-            },
-            cache: false,
-            success: function () {
-              // Success message
-              $('#success').html("<div class='alert alert-success'>");
-              $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
-              $('#success > .alert-success').append("<strong>Your message has been sent. </strong>");
-              $('#success > .alert-success').append('</div>');
-              //clear all fields
-              $('#contactForm').trigger("reset");
-            },
-            error: function () {
-              // Fail message
-              $('#success').html("<div class='alert alert-danger'>");
-              $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
-              $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!"));
-              $('#success > .alert-danger').append('</div>');
-              //clear all fields
-              $('#contactForm').trigger("reset");
-            },
-            complete: function () {
-              setTimeout(function () {
-                $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
-              }, 1000);
-            }
-          });
-        },
-        filter: function () {
-          return $(this).is(":visible");
-        }
-      });
-
-      $("a[data-toggle=\"tab\"]").click(function (e) {
-        e.preventDefault();
-        $(this).tab("show");
-      });
-    });
-
-    /*When clicking on Full hide fail/success boxes */
-    $('#name').focus(function () {
-      $('#success').html('');
-    });
-  </script>
-
-
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  label {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .submit-btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+  }
+  
+  .submit-btn:hover {
+    background-color: #3a7bc8;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-form-container {
+      padding: 15px;
+    }
+    
+    .submit-btn {
+      width: 100%;
+    }
+  }
+</style>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178894389-1"></script>
