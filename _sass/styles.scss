@@ -2,8 +2,11 @@
 @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
 
 .breadcrumbs {
-  margin-bottom: 1.75rem;
-  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #868e96;
 }
 
 .breadcrumbs-list {
@@ -16,16 +19,27 @@
   display: inline;
 }
 
+.breadcrumbs a {
+  color: #868e96;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  color: #495057;
+  text-decoration: underline;
+}
+
 .breadcrumbs-list li::marker {
   content: "";
 }
 
 .breadcrumbs-item + .breadcrumbs-item:before {
   content: "/";
-  margin: 0 0.45rem;
-  color: #6c757d;
+  margin: 0 0.35rem;
+  color: #adb5bd;
 }
 
 .breadcrumbs-item[aria-current="page"] {
-  color: #6c757d;
+  color: #adb5bd;
 }
