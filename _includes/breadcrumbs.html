@@ -1,0 +1,15 @@
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol class="breadcrumbs-list">
+    <li class="breadcrumbs-item">
+      <a href="{{ "/" | relative_url }}">Home</a>
+    </li>
+    {% if page.layout == "post" %}
+    <li class="breadcrumbs-item">
+      <a href="{{ "/posts" | relative_url }}">Posts</a>
+    </li>
+    {% endif %}
+    <li class="breadcrumbs-item" aria-current="page">
+      {{ page.title }}
+    </li>
+  </ol>
+</nav>

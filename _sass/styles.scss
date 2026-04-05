@@ -1,2 +1,27 @@
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
+
+.breadcrumbs {
+  margin-bottom: 1.75rem;
+  font-size: 0.95rem;
+}
+
+.breadcrumbs-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs-item {
+  display: inline;
+}
+
+.breadcrumbs-item + .breadcrumbs-item:before {
+  content: "/";
+  margin: 0 0.45rem;
+  color: #6c757d;
+}
+
+.breadcrumbs-item[aria-current="page"] {
+  color: #6c757d;
+}

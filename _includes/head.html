@@ -23,6 +23,44 @@
     href="{{ "/feed.xml" | relative_url }}">
   <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
 
+  {% if page.title %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "{{ "/" | absolute_url }}"
+        }
+        {% if page.layout == "post" %},
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Posts",
+          "item": "{{ "/posts" | absolute_url }}"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {{ page.title | jsonify }},
+          "item": "{{ page.url | replace:'index.html','' | absolute_url }}"
+        }
+        {% else %},
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ page.title | jsonify }},
+          "item": "{{ page.url | replace:'index.html','' | absolute_url }}"
+        }
+        {% endif %}
+      ]
+    }
+  </script>
+  {% endif %}
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S67P0DDM2"></script>
