@@ -9,11 +9,15 @@
 .breadcrumbs-list {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none !important;
 }
 
 .breadcrumbs-item {
   display: inline;
+}
+
+.breadcrumbs-list li::marker {
+  content: "";
 }
 
 .breadcrumbs-item + .breadcrumbs-item:before {
