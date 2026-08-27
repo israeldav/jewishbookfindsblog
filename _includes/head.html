@@ -2,10 +2,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <title>{% if page.title %}{{ page.title}} | {{ site.title}} | Jewish history and books{% else %}{{ site.title | escape }}{% endif %}</title>
-
-  <meta name="description" content="{{ page.description | escape }}">
+  {% seo title=false %}
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
     type='text/css'>
@@ -18,7 +15,6 @@
   <link rel="stylesheet" href="{{"/assets/vendor/fontawesome-free/css/all.min.css" | relative_url }}">
 
   <link rel="stylesheet" href="{{"/assets/main.css" | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
     href="{{ "/feed.xml" | relative_url }}">
   <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
