@@ -24,11 +24,25 @@ layout: default
     </div>
   </header>
 
+  <nav class="home-topic-nav" aria-label="Site sections">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="home-topic-nav-list">
+            <li><a href="{{ "/jewish-cemeteries/" | relative_url }}">Jewish Cemeteries</a></li>
+            <li><a href="{{ "/old-synagogues/" | relative_url }}">Old Synagogues</a></li>
+            <li><a href="{{ "/hebrew-sefarim/" | relative_url }}">Hebrew Sefarim</a></li>
+            <li><a href="{{ "/jewish-history-books/" | relative_url }}">Jewish History Books</a></li>
+            <li><a href="{{ "/ephemera/" | relative_url }}">Ephemera</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-
-        {{ content }}
 
         <!-- Home Post List -->
         {% for post in site.posts limit : 8 %}

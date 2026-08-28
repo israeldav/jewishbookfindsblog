@@ -44,73 +44,92 @@
   color: #adb5bd;
 }
 
-.home-intro {
-  margin-bottom: 2.5rem;
-  font-size: 1.05rem;
-  color: #495057;
-}
-
-.topic-hubs {
-  margin-bottom: 3rem;
-}
-
-.topic-hubs h2 {
-  margin-bottom: 0.5rem;
-}
-
-.topic-hubs-intro {
-  margin-bottom: 1.5rem;
-  color: #6c757d;
-}
-
-.topic-grid {
-  display: grid;
-  gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-}
-
-.topic-card {
-  height: 100%;
-  padding: 1.25rem;
-  border: 1px solid #e9ecef;
-  border-radius: 0.35rem;
+.home-topic-nav {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid #e9ecef;
   background: #fff;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
 }
 
-.topic-card h3 {
-  margin-bottom: 0.75rem;
-  font-size: 1.1rem;
+.home-topic-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.topic-card h3 a {
-  color: #212529;
+.home-topic-nav-list a {
+  display: inline-block;
+  color: #495057;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.topic-card h3 a:hover,
-.topic-card h3 a:focus {
+.home-topic-nav-list a:hover,
+.home-topic-nav-list a:focus {
   color: #0085a1;
   text-decoration: none;
 }
 
-.topic-card p,
 .hub-intro,
 .hub-section p {
   color: #495057;
 }
 
+.hub-intro {
+  margin-bottom: 2rem;
+  max-width: 42rem;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
 .hub-section {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 
-.hub-section h2 {
-  margin-bottom: 0.75rem;
+.hub-section-title {
+  margin-bottom: 1rem;
+  color: #868e96;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
-.hub-list {
-  padding-left: 1.25rem;
+.hub-link-list {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #eceff1;
+  list-style: none;
 }
 
-.hub-list li + li {
-  margin-top: 0.5rem;
+.hub-link-list li {
+  margin: 0;
+  border-bottom: 1px solid #eceff1;
+}
+
+.hub-link-list a {
+  display: block;
+  padding: 1rem 0;
+  color: #212529;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  text-decoration: none;
+}
+
+.hub-link-list a:hover,
+.hub-link-list a:focus {
+  color: #0085a1;
+  text-decoration: none;
+}
+
+.hub-note {
+  margin-top: 2rem;
+  color: #868e96;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
 }
