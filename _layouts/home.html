@@ -45,7 +45,7 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto">
 
         <!-- Home Post List -->
-        {% for post in site.posts limit : 8 %}
+        {% for post in site.posts limit : 12 %}
 
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
